@@ -41,14 +41,14 @@
 #define TEMP  0
 #define HUMI  1
 /**************************** Command set 8 ***********************************/
-#define SHT2x_ADDR				(0x40 << 1)
-#define SHT2x_HOLD_MASTER_T		0xE3
+#define SHT2x_ADDR		(0x40 << 1)
+#define SHT2x_HOLD_MASTER_T	0xE3
 #define SHT2x_HOLD_MASTER_RH	0xE5
 #define SHT2x_NOHOLD_MASTER_T	0xF3
 #define SHT2x_NOHOLD_MASTER_RH	0xF5
 #define SHT2x_WRITE_USER_REG	0xE6
-#define SHT2x_READ_USER_RGE		0xE7
-#define SHT2x_SOFT_RESET		0xFE
+#define SHT2x_READ_USER_RGE	0xE7
+#define SHT2x_SOFT_RESET	0xFE
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -85,12 +85,12 @@ float SHT20(int);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-void UI();			// main 메뉴보드
-void led_write();		// LED 이동
+void UI();		// main 메뉴보드
+void led_write();	// LED 이동
 void mood();		// 타이머로 무드등 on/off
 void Piano();		// PWM으로 초음파 음계소리내기
 void cds();		// ACD로 밝기에 따른 가로등 on/off
-void TEMP_HUMI();		// 온드/습도 제어
+void TEMP_HUMI();	// 온드/습도 제어
 /* USER CODE END 0 */
 
 /**
