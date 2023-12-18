@@ -16,10 +16,10 @@
 #define LED 23
 
 char pw[] = {'0', '0', '0', '0', '*'};
-char p[10];										// 확인할
+char p[10];				// 확인할
 char nowpw[6];				// 현재
 char newpw[6];				// 변경된
-int attempts = 5;				// 제한횟수
+int attempts = 5;			// 제한횟수
 int numarray[10];
 int i = 0;
 
