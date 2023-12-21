@@ -1,5 +1,5 @@
 /*4자리수 표현*/
-/*pnd.v2.c*/
+/*fnd.v2.c*/
 #include <stdio.h>
 #include <wiringPi.h>
 
