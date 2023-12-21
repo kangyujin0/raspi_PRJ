@@ -1,5 +1,5 @@
 세그먼트 숫자/알파벳 동작
-/*pnd.v1.c*/
+/*fnd.v1.c*/
 #include <stdio.h>
 #include <wiringPi.h>
 
