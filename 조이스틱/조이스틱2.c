@@ -1,3 +1,4 @@
+/*joy.v2.c*/
 #include <stdio.h>
 #include <wiringPi.h>
 #include <wiringPiSPI.h>
@@ -6,7 +7,7 @@
 #define BASE 100
 #define SPI_CHAN 0
 #define SW 25
-#define X 0		// pin번호
+#define X 0			// pin번호
 #define Y 3
 #define LEFT 100		// 좌로 이동 기준값
 #define RIGHT 900		// 우로 이동 기준값
